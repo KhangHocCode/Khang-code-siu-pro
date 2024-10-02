@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<br lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 3</title>
+    <style>
+        html{
+            font-size: 30px;
+        }
+        button, input, textarea, select{
+            padding: 10px 50px;;
+            font-size: 20px;
+        }
+         ::placeholder, option{
+            font-size: 15px;
+         }
+    </style>
+</head>
+<br>
+<h2>Câu 1: Yêu cầu tạo form đăng ký tài khoản</h2>
+<p><strong>Yêu cầu: </strong>Tạo form <strong>Đăng ký tài khoản</strong> như bên dưới</p>
+<label for="name">Họ và tên</label>
+<br>
+<input type="text" name="fullname" id="name" placeholder="ví dụ: lenava">
+<br>
+<label for="email">Email</label>
+<br>
+<input type="text" name="email" id="email" placeholder="Ví dụ: lenava@gmail.com">
+<br>
+<label for="password">Mật khẩu</label>
+<br>
+<input type="password" name=""pass id="password">
+<br>
+<br>
+<button>Đăng ký</button>
+<br>
+<h2>Câu 2: Tạo form Đăng ký chi tiết</h2>
+<p><strong>Yêu cầu:</strong> Tạo form <strong>Đăng ký chi tiết</strong>  như bên dưới</p>
+<br>
+    <label for="name">Họ và tên</label>
+<br>
+    <input type="text" name="fullname" id="name">
+<br>
+    <label for="email">Email</label>
+<br>
+    <input type="text" name="email" id="email">
+<br>
+    <label for="password">Mật khẩu</label>
+<br>
+    <input type="password" name="password" id="password">
+<br>
+    <label for="password">Xác nhận mật khẩu</label>
+<br>
+    <input type="password" name="password" id="password">
+<br>
+    <label>Giới tính</label>
+<br>
+    <input type="radio" name="gioitinh" id="nam" value="Nam">
+    <label for="name">Nam</label>
+</br>
+<br>
+    <input type="radio" name="gioitinh" id="nu" value="Nữ">
+    <label for="name">Nữ</label>
+</br>
+<br>
+    <input type="radio" name="gioitinh" id="khac" value="Khác">
+    <label for="name">Khác</label>
+</br>
+<br>
+<label for="country">Quốc gia</label>
+<br>
+<select name="country" id="country">
+    <option value="vietnam">Việt Nam</option>
+    <option value="thailam">Thái Lan</option>
+    <option value="nhatban">Nhật Bản</option>
+</select>
+</br>
+<br>
+<button>Đăng ký</button>
+<h2>Câu 3: Tạo form Đánh giá sản phẩm</h2>
+<p><strong>Yêu cầu</strong>: Tạo forms <strong>Đánh giá sản phẩm</strong> như bên dưới</p>
+<br>
+<form action="">
+    <label for="tenSanPham">Tên sản phẩm</label>
+    <br>
+    <input type="text" name="tenSanPham" id="tenSanPham">
+    <br>
+    <label for="danhGia">Đánh giá</label>
+    <br>
+    <input type="radio" name="danhGia" id="nam-sao" value="5">
+    <label for="nam-sao">5 sao</label>
+    <br>
+    <input type="radio" name="danhGia" id="bon-sao" value="4">
+    <label for="bon-sao">4 sao</label>
+    <br>
+    <input type="radio" name="danhGia" id="ba-sao" value="3">
+    <label for="ba-sao">3 sao</label>
+    <br>
+    <input type="radio" name="danhGia" id="hai-sao" value="2">
+    <label for="hai-sao">2 sao</label>
+    <br>
+    <input type="radio" name="danhGia" id="mot-sao" value="1">
+    <label for="mot-sao">1 sao</label>
+    <br>
+    <label for="danhGia">Bình luận</label>
+    <br>
+    <textarea name="danhGia" id="danhGia" rows="4"></textarea>
+    <br>
+    <button>Gửi tin nhắn</button>
+    <br>
+    <h2>Câu 5: Tạo form Đặt phòng khách sạn</h2>
+    <p><strong>Yêu cầu</strong>: Taoj form <strong>Đặt phòng khách sạn </strong>như bên dưới</p>
+    <br>
+    <label for="fullname">Họ và tên</label>
+    <br>
+    <input type="text" name="fullname" id="name">
+    <br>
+    <label for="enail">Email</label>
+    <br>
+    <input type="text" name="email" id="email">
+    <br>
+    <label for="ngaytra">Ngày nhận phòng</label>
+    <br>
+    <input type="date" name="ngaytra" id="ngaytra">
+    <br>
+    <label for="ngaytra">Ngày trả phòng</label>
+    <br>
+    <input type="date" name="ngaytra" id="ngaytra">
+    <br>
+    <label for="op">Loại phòng</label>
+    <br>
+    <select name="op" id="op">
+        <option value="Phòng thường">Phòng thường</option>
+        <option value="Phòng VIP">Phòng VIP</option>
+        <option value="Phòng gia đình">Phòng gia đình</option>
+    </select>
+    </br>
+    <label for="yC">Yêu cầu đặc biệt</label>
+    <br>
+    <textarea name="yC" id="yC" rows="4"></textarea>
+    <br>
+    <h2>Câu 6: Tạo form Tìm Kiếm</h2>
+    <p><strong>Yêu cầu</strong>: Tạo form <strong>Tìm kiếm</strong> như bên dưới</p>
+    <br>
+    <input type="text" name="timKiem" id="timKiem" placeholder="Nhập từ khóa...">
+    
+    <button>Tìm kiếm</button>
+
+</form>
+</html>
